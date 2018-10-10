@@ -4,11 +4,14 @@
   "description": "Responsive Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "author": "Raj Chunara",
   "license": "MIT",
+  "homepage":"https://rajchunara.github.io/Portfolio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }
